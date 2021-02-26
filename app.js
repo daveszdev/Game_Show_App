@@ -13,3 +13,9 @@ const phrases = [
   'she sees cheese',
   'we all scream for ice cream'
 ];
+
+// I added an event listener method.
+
+buttonReset.addEventListener('click', (e) => {
+  buttonReset.style.display = 'none';
+});
